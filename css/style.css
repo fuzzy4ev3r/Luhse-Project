@@ -85,13 +85,34 @@ input, select {
     vertical-align:middle;
 }
 /* Micah is coding here. */
-nav a {
-	background: url('../img/header-sprite.png');
-}
 
-header h1 {
-	background: url('../img/header-sprite.png') 0 0;
+h1 {
+	background: url(../img/header-sprite.png) -11px -10px;
 	height: 164px;
 	width: 164px;
+}
+
+#about-us {
+	background: url(../img/header-sprite.png) -178px -67px;
+	height: 108px;
+	width: 129px;
+}
+
+#contact-us {
+	background: url(../img/header-sprite.png) -654px -75px;
+	height: 103px;
+	width: 154px;
+}
+
+#profiles {
+	background: url(../img/header-sprite.png) -332px -75px;
+	height: 98px;
+	width: 147px;
+}
+
+#projects {
+	background: url(../img/header-sprite.png) -494px -80px;
+	height: 90px;
+	width: 142px;
 }
 /* End of Micah's code. */
