@@ -86,33 +86,89 @@ input, select {
 }
 /* Micah is coding here. */
 
-h1 {
+#contentbox {
+	background-color: #404040;
+	border: 5px solid #808080;
+	border-radius: 25px;
+	position: relative;
+	height: 1235px;
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
 	background: url(../img/header-sprite.png) -11px -10px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+	height: 164px;
+	width: 164px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+.logofooter {
+	background: url(../img/header-sprite.png) -11px -10px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
 	height: 164px;
 	width: 164px;
 }
 
 #about-us {
 	background: url(../img/header-sprite.png) -178px -67px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
 	height: 108px;
 	width: 129px;
+	position: absolute;
+	left: 190px;
+	top: 38px;
 }
 
 #contact-us {
 	background: url(../img/header-sprite.png) -654px -75px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
 	height: 103px;
 	width: 154px;
+	position: absolute;
+	top: 50px;
+	left: 620px;
 }
 
 #profiles {
 	background: url(../img/header-sprite.png) -332px -75px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
 	height: 98px;
 	width: 147px;
+	position: absolute;
+	top: 45px;
+	left: 320px;
 }
 
 #projects {
 	background: url(../img/header-sprite.png) -494px -80px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
 	height: 90px;
 	width: 142px;
+	position: absolute;
+	top: 50px;
+	left: 460px;
 }
 /* End of Micah's code. */
