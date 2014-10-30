@@ -85,13 +85,21 @@ input, select {
     vertical-align:middle;
 }
 /* Micah is coding here. */
+#headerborder {
+	background: url(../img/headerborder.png) 0px 0px;
+	width: 800px;
+	height: 36px;
+	position: absolute;
+	top: 170px;
+	right: -5px;
+}
 
 #contentbox {
 	background-color: #404040;
 	border: 5px solid #808080;
 	border-radius: 25px;
 	position: relative;
-	height: 1235px;
+	height: 1205px;
 	width: 780px;
 	margin-left: auto;
 	margin-right: auto;
@@ -184,6 +192,47 @@ input, select {
 
 #space {
 	height: 30px;
+}
+
+#latestwork {
+	color: #ffffff;
+	position: absolute;
+	right: 60px;
+	top: 230px;
+	font-size: 24px;
+}
+
+#sideborder {
+	background: url(../img/sideborder.png) 0px 0px;
+	width: 30px;
+	height: 1000px;
+	position: absolute;
+	right: 195px;
+	top: 205px;
+}
+
+#welcome {
+	color: #ffffff;
+	position: absolute;
+	top: 300px;
+	font-size: 24px;
+	left: 210px;
+}
+
+#teaminfo {
+	color: #ffffff;
+	position: absolute;
+	top: 340px;
+	left: 25px;
+	text-indent: 50px;
+}
+
+#imageprofiles {
+	color: #ffffff;
+	position: absolute;
+	font-size: 24px;
+	left: 210px;
+	top: 520px;
 }
 /* End of Micah's code. */
 
