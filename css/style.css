@@ -118,6 +118,9 @@ input, select {
     white-space:nowrap;
 	height: 164px;
 	width: 164px;
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
 }
 
 #about-us {
@@ -130,7 +133,7 @@ input, select {
 	width: 129px;
 	position: absolute;
 	left: 190px;
-	top: 38px;
+	top: 58px;
 }
 
 #contact-us {
@@ -142,7 +145,7 @@ input, select {
 	height: 103px;
 	width: 154px;
 	position: absolute;
-	top: 50px;
+	top: 70px;
 	left: 620px;
 }
 
@@ -155,7 +158,7 @@ input, select {
 	height: 98px;
 	width: 147px;
 	position: absolute;
-	top: 45px;
+	top: 65px;
 	left: 320px;
 }
 
@@ -168,7 +171,7 @@ input, select {
 	height: 90px;
 	width: 142px;
 	position: absolute;
-	top: 50px;
+	top: 70px;
 	left: 460px;
 }
 
@@ -178,6 +181,10 @@ input, select {
 	background-attachment: fixed;
 	background-position: center;
 }
+
+#space {
+	height: 30px;
+}
 /* End of Micah's code. */
 
 /*Turtles code*/
@@ -186,10 +193,13 @@ footer {
 	border: 5px solid #808080;
 	border-radius: 25px;
 	position: relative;
-	height: 200px;
+	height: 190px;
 	width: 780px;
 	margin-left: auto;
 	margin-right: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom: 0px;
 }
 
 
@@ -199,9 +209,15 @@ footer a {
 
 #copyright {
 	color: #ffffff;
+	position: absolute;
+	bottom: 10px;
+	left: 5px;
 }
 
-footer p {
+#links {
 	color: #ffffff;
+	position: absolute;
+	top: 5px;
+	left 20px;
 }
 /*End of Turtles code*/
