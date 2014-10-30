@@ -171,4 +171,11 @@ input, select {
 	top: 50px;
 	left: 460px;
 }
+
+#wrapper {
+	background: url(../img/team-elemental-background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
 /* End of Micah's code. */
