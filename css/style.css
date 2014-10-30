@@ -179,3 +179,29 @@ input, select {
 	background-position: center;
 }
 /* End of Micah's code. */
+
+/*Turtles code*/
+footer {
+	background-color: #404040;
+	border: 5px solid #808080;
+	border-radius: 25px;
+	position: relative;
+	height: 200px;
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer a {
+	color: #ffffff;
+}
+
+#copyright {
+	color: #ffffff;
+}
+
+footer p {
+	color: #ffffff;
+}
+/*End of Turtles code*/
