@@ -234,6 +234,45 @@ input, select {
 	left: 210px;
 	top: 520px;
 }
+
+#micah {
+	background: url(../img/profile-photos.png) 0px 0px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+	height: 103px;
+	width: 110px;
+	position: absolute;
+	left: 59px;
+	top: 580px;
+}
+
+#stephon {
+	background: url(../img/profile-photos.png) -161px 0px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+	height: 103px;
+	width: 110px;
+	position: absolute;
+	left: 210px;
+	top: 580px;
+}
+
+#tara {
+	background: url(../img/profile-photos.png) -323px 0px;
+	display:block;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+	height: 103px;
+	width: 110px;
+	position: absolute;
+	left: 371px;
+	top: 580px;
+}
 /* End of Micah's code. */
 
 /*Turtles code*/
