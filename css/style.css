@@ -105,7 +105,7 @@ input, select {
 	margin-right: auto;
 }
 
-.logo {
+.logo a {
 	background: url(../img/header-sprite.png) -11px -10px;
 	display:block;
 	overflow:hidden;
@@ -118,7 +118,7 @@ input, select {
 	top: 10px;
 }
 
-.logofooter {
+.logofooter a {
 	background: url(../img/header-sprite.png) -11px -10px;
 	display:block;
 	overflow:hidden;
@@ -131,7 +131,7 @@ input, select {
 	bottom: 15px;
 }
 
-#about-us {
+#about-us a {
 	background: url(../img/header-sprite.png) -178px -67px;
 	display:block;
 	overflow:hidden;
@@ -144,7 +144,7 @@ input, select {
 	top: 58px;
 }
 
-#contact-us {
+#contact-us a {
 	background: url(../img/header-sprite.png) -654px -75px;
 	display:block;
 	overflow:hidden;
@@ -157,7 +157,7 @@ input, select {
 	left: 620px;
 }
 
-#profiles {
+#profiles a {
 	background: url(../img/header-sprite.png) -332px -75px;
 	display:block;
 	overflow:hidden;
@@ -170,7 +170,7 @@ input, select {
 	left: 320px;
 }
 
-#projects {
+#projects a {
 	background: url(../img/header-sprite.png) -494px -80px;
 	display:block;
 	overflow:hidden;
@@ -272,6 +272,32 @@ input, select {
 	position: absolute;
 	left: 371px;
 	top: 580px;
+}
+
+#wrapper-micah {
+	text-align: center;
+	background: url("http://i.imgur.com/Ba2ofAn.jpg");
+	color: white;
+	font-family: Helvetica;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#biography {
+	color: #ffffff;
+	position: absolute;
+	top: 300px;
+	font-size: 24px;
+	left: 335px;
+}
+
+#biography-micah {
+	color: #ffffff;
+	position: absolute;
+	top: 345px;
+	line-height: 30px;
 }
 /* End of Micah's code. */
 
