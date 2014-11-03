@@ -86,11 +86,11 @@ input, select {
 }
 /* Micah is coding here. */
 #headerborder {
-	background: url(../img/headerborder.png) 0px 0px;
-	width: 800px;
-	height: 36px;
+	background: url(../img/headerborder01.png) 0px 0px;
+	width: 785px;
+	height: 32px;
 	position: absolute;
-	top: 170px;
+	top: 178px;
 	right: -5px;
 }
 
