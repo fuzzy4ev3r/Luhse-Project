@@ -84,7 +84,21 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+
+/*** This is some great code to add to your reset so that padding on elements
+ * do not change their width and cause the layout to break. ***/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /* Micah is coding here. */
+
+/* This should be a background on the header repeating x ***/
 #headerborder {
 	background: url(../img/headerborder01.png) 0px 0px;
 	width: 785px;
@@ -99,13 +113,12 @@ input, select {
 	border: 5px solid #808080;
 	border-radius: 25px;
 	position: relative;
-	height: 1205px;
 	width: 780px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.logo a {
+/*** You should combine these since they have most of the same properties ***/
+.logo a, .logofooter a {
 	background: url(../img/header-sprite.png) -11px -10px;
 	display:block;
 	overflow:hidden;
@@ -117,20 +130,18 @@ input, select {
 	left: 20px;
 	top: 10px;
 }
-
+/*** These are the only properties you need on this element, 
+ *   and it will override the previous code since the selector
+ *   is the same weight and it comes after it ***/
 .logofooter a {
-	background: url(../img/header-sprite.png) -11px -10px;
-	display:block;
-	overflow:hidden;
-    text-indent:100%;
-    white-space:nowrap;
-	height: 164px;
-	width: 164px;
-	position: absolute;
 	right: 20px;
 	bottom: 15px;
 }
-
+/*** Same for a lot of these nav styles ***/
+/*** You can set a height on the header and then position the bigger elements first inside it such as nav.
+ * Only position the individual nav items relatively from their default position in nav.
+ * Use display inline block to get them showing up horizontally "inline".
+ */
 #about-us a {
 	background: url(../img/header-sprite.png) -178px -67px;
 	display:block;
@@ -194,6 +205,11 @@ input, select {
 	height: 30px;
 }
 
+/*** Instead of absolutely positioning this,
+ * set a width on your sidebar (aside) and
+ * float it right with the main content floating left.
+ * Then just use margin as needed for the space on the heading.
+***/
 #latestwork {
 	color: #ffffff;
 	position: absolute;
@@ -201,7 +217,7 @@ input, select {
 	top: 230px;
 	font-size: 24px;
 }
-
+/*** This border should be a background on aside and repeating y ***/
 #sideborder {
 	background: url(../img/sideborder.png) 0px 0px;
 	width: 30px;
@@ -210,7 +226,8 @@ input, select {
 	right: 195px;
 	top: 205px;
 }
-
+/*** Take off absolute position on these and use margin to
+ * space them out inside their default position in the flow of article ***/
 #welcome {
 	color: #ffffff;
 	position: absolute;
@@ -234,7 +251,9 @@ input, select {
 	left: 210px;
 	top: 520px;
 }
-
+/*** Alot of these properties are the same as well. Remember DRY coding. Do not repeat yourself.
+ * Group selectors by using commas.
+ */
 #micah {
 	background: url(../img/profile-photos.png) 0px 0px;
 	display:block;
