@@ -99,13 +99,13 @@ html {
 /* Micah is coding here. */
 
 /* This should be a background on the header repeating x ***/
-#headerborder {
+header {
 	background: url(../img/headerborder01.png) 0px 0px;
-	width: 785px;
-	height: 32px;
-	position: absolute;
-	top: 178px;
-	right: -5px;
+	width: auto;
+	height: auto;
+	position: relative;
+	margin-top: 20%;
+	background-repeat: repeat-x;
 }
 
 #contentbox {
@@ -126,16 +126,15 @@ html {
     white-space:nowrap;
 	height: 164px;
 	width: 164px;
-	position: absolute;
-	left: 20px;
-	top: 10px;
+	margin-left: 1%;
+	margin: auto;
 }
 /*** These are the only properties you need on this element, 
  *   and it will override the previous code since the selector
  *   is the same weight and it comes after it ***/
 .logofooter a {
-	right: 20px;
-	bottom: 15px;
+	margin-right: 1%;
+	margin-top: 1%;
 }
 /*** Same for a lot of these nav styles ***/
 /*** You can set a height on the header and then position the bigger elements first inside it such as nav.
@@ -201,10 +200,6 @@ html {
 	background-position: center;
 }
 
-#space {
-	height: 30px;
-}
-
 /*** Instead of absolutely positioning this,
  * set a width on your sidebar (aside) and
  * float it right with the main content floating left.
@@ -218,13 +213,13 @@ html {
 	font-size: 24px;
 }
 /*** This border should be a background on aside and repeating y ***/
-#sideborder {
+aside {
 	background: url(../img/sideborder.png) 0px 0px;
 	width: 30px;
-	height: 1000px;
-	position: absolute;
-	right: 195px;
-	top: 205px;
+	height: auto;
+	position: relative;
+	margin-right: 10%;
+	background-repeat: repeat-y;
 }
 /*** Take off absolute position on these and use margin to
  * space them out inside their default position in the flow of article ***/
@@ -326,13 +321,14 @@ footer {
 	border: 5px solid #808080;
 	border-radius: 25px;
 	position: relative;
-	height: 190px;
+	height: auto;
 	width: 780px;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	border-bottom: 0px;
+	margin-top: 3%;
 }
 
 
@@ -342,15 +338,15 @@ footer a {
 
 #copyright {
 	color: #ffffff;
-	position: absolute;
-	bottom: 10px;
-	left: 5px;
+	position: relative;
+	margin-bottom: 1%;
+	margin-left: 1%;
 }
 
 #links {
 	color: #ffffff;
-	position: absolute;
-	top: 5px;
-	left 20px;
+	position: relative;
+	margin-top: 1%;
+	margin-left: 1%;
 }
 /*End of Turtles code*/
