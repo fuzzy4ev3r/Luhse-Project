@@ -95,6 +95,12 @@ html {
   box-sizing: inherit;
 }
 
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+.fltLft {float: left;} .fltRgt {float: right;}
+
 
 /* Micah is coding here. */
 
@@ -329,6 +335,7 @@ footer {
 	border-bottom-right-radius: 0px;
 	border-bottom: 0px;
 	margin-top: 3%;
+	padding: 20px;
 }
 
 
@@ -336,11 +343,23 @@ footer a {
 	color: #ffffff;
 }
 
+footer .left {
+	width: 45%;
+}
+footer .right {
+	width: 45%;
+	text-align: right;
+}
+
+footer ul li {display: inline;}
+
 #copyright {
 	color: #ffffff;
 	position: relative;
 	margin-bottom: 1%;
 	margin-left: 1%;
+	position: absolute;
+	bottom: 20px;
 }
 
 #links {
