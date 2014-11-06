@@ -110,8 +110,8 @@ header {
 	width: auto;
 	height: auto;
 	position: relative;
-	margin-top: 20%;
 	background-repeat: repeat-x;
+	background-position: bottom;
 }
 
 #contentbox {
