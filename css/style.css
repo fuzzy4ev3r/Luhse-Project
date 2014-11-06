@@ -198,7 +198,6 @@ nav ul li {
 	(Sidebar)
 #latestwork {
 	color: #ffffff;
-	position: absolute;
 	right: 60px;
 	top: 230px;
 	font-size: 24px;
@@ -222,13 +221,11 @@ article {
 
 #welcome {
 	color: #ffffff;
-	position: absolute;
 	font-size: 24px;
 }
 
 #teaminfo {
 	color: #ffffff;
-	position: absolute;
 	top: 340px;
 	left: 25px;
 	text-indent: 50px;
@@ -236,7 +233,6 @@ article {
 
 #imageprofiles {
 	color: #ffffff;
-	position: absolute;
 	font-size: 24px;
 	left: 210px;
 	top: 520px;
@@ -252,7 +248,6 @@ article {
     white-space:nowrap;
 	height: 103px;
 	width: 110px;
-	position: absolute;
 	left: 59px;
 	top: 580px;
 }
@@ -265,7 +260,6 @@ article {
     white-space:nowrap;
 	height: 103px;
 	width: 110px;
-	position: absolute;
 	left: 210px;
 	top: 580px;
 }
@@ -278,7 +272,6 @@ article {
     white-space:nowrap;
 	height: 103px;
 	width: 110px;
-	position: absolute;
 	left: 371px;
 	top: 580px;
 }
@@ -339,6 +332,16 @@ footer .right {
 }
 
 footer ul li {display: inline;}
+footer .right h3 {width: 164px;}
+.logo-footer {
+	height: 164px;
+	width: 164px;
+}
+
+footer div h3 {
+	height: 164px;
+	width: 164px;
+}
 
 #copyright {
 	color: #ffffff;
