@@ -101,6 +101,7 @@ html {
 }
 .fltLft {float: left;} .fltRgt {float: right;}
 
+body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Micah is coding here. */
 
@@ -211,6 +212,7 @@ header {
  * float it right with the main content floating left.
  * Then just use margin as needed for the space on the heading.
 ***/
+	(Sidebar)
 #latestwork {
 	color: #ffffff;
 	position: absolute;
@@ -227,6 +229,7 @@ aside {
 	margin-right: 10%;
 	background-repeat: repeat-y;
 }
+	(Sidebar)
 /*** Take off absolute position on these and use margin to
  * space them out inside their default position in the flow of article ***/
 #welcome {
