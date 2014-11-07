@@ -195,85 +195,81 @@ nav ul li {
  * float it right with the main content floating left.
  * Then just use margin as needed for the space on the heading.
 ***/
-	(Sidebar)
-#latestwork {
-	color: #ffffff;
-	right: 60px;
-	top: 230px;
-	font-size: 24px;
-}
+
 /*** This border should be a background on aside and repeating y ***/
+
 aside {
-	background: url(../img/sideborder.png) 0px 0px;
-	width: 30px;
-	height: auto;
-	position: relative;
-	margin-right: 10%;
-	background-repeat: repeat-y;
+	width: 25%;
+	text-align: center;
 }
-	(Sidebar)
 /*** Take off absolute position on these and use margin to
  * space them out inside their default position in the flow of article ***/
 
 article {
 	height: auto;
+	width: 75%;
+	background: url(../img/sideborder.png) 0px 0px;
+	height: auto;
+	background-repeat: repeat-y;
+	background-position: right;
+	text-align: center;
+}
+
+#latestwork {
+	color: #ffffff;
+	font-size: 18px;
 }
 
 #welcome {
 	color: #ffffff;
 	font-size: 24px;
+	margin: 30px;
 }
 
 #teaminfo {
 	color: #ffffff;
-	top: 340px;
-	left: 25px;
-	text-indent: 50px;
+	margin: 30px;
 }
 
 #imageprofiles {
 	color: #ffffff;
 	font-size: 24px;
-	left: 210px;
-	top: 520px;
+	margin: 30px;
 }
 /*** Alot of these properties are the same as well. Remember DRY coding. Do not repeat yourself.
  * Group selectors by using commas.
  */
-#micah {
+.profile-images li {
+	display: inline-block;
+}
+
+#micah, #stephon, #tara {
 	background: url(../img/profile-photos.png) 0px 0px;
 	display:block;
 	overflow:hidden;
     text-indent:100%;
     white-space:nowrap;
-	height: 103px;
+	height: 100px;
 	width: 110px;
-	left: 59px;
-	top: 580px;
+	margin: 20px;
 }
 
 #stephon {
-	background: url(../img/profile-photos.png) -161px 0px;
-	display:block;
-	overflow:hidden;
-    text-indent:100%;
-    white-space:nowrap;
-	height: 103px;
-	width: 110px;
-	left: 210px;
-	top: 580px;
+	background-position: -161px 0px;
 }
 
 #tara {
-	background: url(../img/profile-photos.png) -323px 0px;
-	display:block;
-	overflow:hidden;
-    text-indent:100%;
-    white-space:nowrap;
-	height: 103px;
-	width: 110px;
-	left: 371px;
-	top: 580px;
+	background-position: -323px 0px;
+}
+
+.profile-names {
+	color: #ffffff;
+	margin: 30px;
+}
+
+.profile-names li {
+		display: inline;
+		font-size: 18;
 }
 
 #wrapper-micah {
@@ -289,15 +285,19 @@ article {
 
 #biography {
 	color: #ffffff;
-	position: absolute;
 	font-size: 24px;
+	margin: 30px;
 }
 
 #biography-micah {
 	color: #ffffff;
-	position: absolute;
-	top: 345px;
 	line-height: 30px;
+	margin: 30px;
+}
+
+.micahs-article {
+	width: 100%;
+	background: none;
 }
 /* End of Micah's code. */
 
