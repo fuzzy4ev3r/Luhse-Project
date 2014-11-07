@@ -213,6 +213,7 @@ article {
 	background-repeat: repeat-y;
 	background-position: right;
 	text-align: center;
+	padding: 20px;
 }
 
 #latestwork {
@@ -243,6 +244,11 @@ article {
 	display: inline-block;
 }
 
+.profile-images a {
+	display: inline-block;
+	color: #ffffff
+}
+
 #micah, #stephon, #tara {
 	background: url(../img/profile-photos.png) 0px 0px;
 	display:block;
@@ -262,15 +268,6 @@ article {
 	background-position: -323px 0px;
 }
 
-.profile-names {
-	color: #ffffff;
-	margin: 30px;
-}
-
-.profile-names li {
-		display: inline;
-		font-size: 18;
-}
 
 #wrapper-micah {
 	text-align: center;
