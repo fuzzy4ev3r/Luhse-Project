@@ -151,6 +151,15 @@ nav ul li {
 	display: inline-block;
 }
 
+nav {
+	padding-top: 56px;
+}
+
+nav ul {
+	position: relative;
+	left: 15px;
+}
+
 #about-us a, #contact-us a, #profiles a, #projects a {
 	background: url(../img/header-sprite.png) 0px 0px;
 	display:inline-block;
