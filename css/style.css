@@ -88,6 +88,34 @@ input, select {
 
 /*** This is some great code to add to your reset so that padding on elements
  * do not change their width and cause the layout to break. ***/
+
+/*Sticky Footer test*/
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.page-wrapper {
+	min-height: 100%;
+	margin-bottom: -230px; 
+}
+
+.page-wrapper:after {
+	content: "";
+	display: block;
+}
+
+
+footer, .page-wrapper:after {
+	height: 230px;
+}
+
+
+
 html {
   box-sizing: border-box;
 }
@@ -115,6 +143,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
+	margin-bottom: 60px;
 }
 
 header {
@@ -192,7 +221,7 @@ nav ul {
 	width: 142px;
 }
 
-#wrapper {
+body {
 	background: url(../img/team-elemental-background.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -313,14 +342,12 @@ footer {
 	border: 5px solid #808080;
 	border-radius: 25px;
 	position: relative;
-	height: auto;
 	width: 780px;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	border-bottom: 0px;
-	margin-top: 3%;
 	padding: 20px;
 }
 
