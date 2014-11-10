@@ -167,6 +167,7 @@ header {
 	height: 164px;
 	width: 164px;
 }
+
 /*** These are the only properties you need on this element, 
  *   and it will override the previous code since the selector
  *   is the same weight and it comes after it ***/
@@ -263,17 +264,20 @@ article {
 	color: #ffffff;
 	font-size: 24px;
 	margin: 30px;
+	font-family: cursive;
 }
 
 #teaminfo {
 	color: #ffffff;
 	margin: 30px;
+	line-height: 25px;
 }
 
 #imageprofiles {
 	color: #ffffff;
 	font-size: 24px;
 	margin: 30px;
+	font-family: cursive;
 }
 /*** Alot of these properties are the same as well. Remember DRY coding. Do not repeat yourself.
  * Group selectors by using commas.
@@ -304,6 +308,15 @@ article {
 
 #tara {
 	background-position: -323px 0px;
+}
+
+.profile-names:link {
+	text-decoration: none;
+}
+
+.profile-names:hover {
+	color: cyan;
+	text-decoration: underline;
 }
 
 
